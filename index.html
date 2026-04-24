@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeriGuard | Zero-Day Fact Checker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e1e24;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: #2b2b36;
+      padding: 40px;
+      border-radius: 12px;
+      border: 1px solid #3f3f4e;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+    h1 { margin-top: 0; color: #4caf50; }
+    p { color: #e0e0e0; line-height: 1.6; margin-bottom: 30px; }
+    
+    .download-btn {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .download-btn:hover { background-color: #43a047; transform: scale(1.02); }
+    
+    .install-card {
+      margin-top: 40px;
+      background-color: #1e1e24;
+      padding: 25px;
+      border-radius: 8px;
+      text-align: left;
+      border: 1px solid #3f3f4e;
+    }
+    .install-card h3 { margin-top: 0; color: #64b5f6; font-size: 16px; text-transform: uppercase; letter-spacing: 1px; }
+    ol { padding-left: 20px; color: #ccc; }
+    li { margin-bottom: 12px; line-height: 1.5; }
+    b { color: #fff; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🛡️ VeriGuard</h1>
+    <p>An autonomous, Open-Source Intelligence (OSINT) fact-checking engine that mathematically evaluates claims to eliminate generative AI hallucinations in real-time.</p>
+    
+    <a href="veriguard.zip" download="veriguard.zip" class="download-btn">📥 Download Chrome Extension</a>
+
+    <div class="install-card">
+      <h3>Installation Instructions</h3>
+      <ol>
+        <li>Click the button above to download <b>veriguard.zip</b>.</li>
+        <li>Extract (unzip) the folder anywhere on your computer.</li>
+        <li>Open Google Chrome and navigate to <b>chrome://extensions/</b> in your address bar.</li>
+        <li>Toggle on <b>Developer mode</b> in the top right corner.</li>
+        <li>Click the <b>Load unpacked</b> button in the top left.</li>
+        <li>Select the extracted <b>veriguard_extensions</b> folder.</li>
+        <li>Pin VeriGuard to your toolbar, highlight any text on the web, and right-click to verify!</li>
+      </ol>
+    </div>
+  </div>
+
+</body>
+</html>
